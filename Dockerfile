@@ -1,4 +1,4 @@
-FROM jboss/wildfly:8.2.0.Final
+FROM jboss/wildfly:9.0.0.Final
 
 USER root
 ADD http://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-core/3.1.2/metrics-core-3.1.2.jar /opt/jboss/wildfly/modules/system/layers/base/io/dropwizard/metrics/core/main/
