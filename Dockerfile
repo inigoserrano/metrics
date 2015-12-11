@@ -1,4 +1,4 @@
-FROM jboss/wildfly:9.0.0.Final
+FROM jboss/wildfly:9.0.1.Final
 
 #As root to change the permissions of the module to the user jboss.
 USER root
